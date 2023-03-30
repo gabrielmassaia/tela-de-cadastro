@@ -1,0 +1,28 @@
+html,
+body {
+    background-color: black; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+.opa {
+    background-color: black; 
+    height: 100%;
+    width: 100%;
+
+}
+.box {
+    background-image: url(img1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+    transition: 1.5s;
+}
+.box:hover {
+    opacity: 1;
+}
